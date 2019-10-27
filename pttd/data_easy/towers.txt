@@ -1,0 +1,171 @@
+h:7 o:15 n:20 c:150 b:300 la:100 ac:300 base2:100
+h t 0 3 1000 100 hf(a):6 li:8
+li t 0 6 1000 125 na:18
+na t 0 15 1000 150 k:30
+k t 0 28 1000 175 rb:70
+rb t 0 70 1000 200 cs:100
+cs t 0 128 1000 225 fr:300
+fr t 0 300 1000 275
+:a reflect
+hf(a) t 0 3 750 175 hcl:11
+:b aquatic
+hcl t 0 3 300 200 hbr:25
+:b aquatic
+hbr t 0 6 300 225 hi:50
+:b aquatic
+hi t 0 6 300 250 hat:100
+:b aquatic
+:a acetic
+hat t 0 6 300 250
+:b aquatic
+:a unstable
+o t 0 0 0 0 s:20 h2o:100
+:m ut .8
+h2o t 0 0 0 0 h2os:200
+:a slow 0.7
+h2os t 0 0 0 0
+:a freeze 1000 3000
+s t 0 0 0 0 se:75
+:m ct .8
+se t 0 0 0 0 te:100
+:a sudden .05
+te t 0 0 0 0 po:100
+:m mc 0.9
+po t 0 0 0 0
+:a sudden .1
+n t 0 0 0 0 p:60
+:a poison 2000 4 4000
+p t 0 0 0 0 as:100
+:a poison 1000 8 4000
+as t 0 0 0 0 sb:150
+:a poison 1000 18 4000
+sb t 0 0 0 0 bi:300
+:a poison 1000 40 4000
+bi t 0 0 0 0
+:m mc 0.7
+c t 0 0 0 0 si:200
+:m uc 0.95
+:l c 3
+si t 0 0 0 0 ge:250
+:m uc 0.9
+:l c
+ge t 0 0 0 0 sn:400
+:m uc 0.85
+:l c
+sn t 0 0 0 0 pb:1000
+:m uc 0.8
+:l c
+pb t 0 0 0 0
+:m uc 0.7
+:l c
+b t 0 0 0 0 al:200
+:m cc 0.95
+al t 0 0 0 0 ga:200
+:m cc 0.9
+ga t 0 0 0 0 in:200
+:m cc 0.85
+in t 0 0 0 0 tl:200
+:m cc 0.8
+tl t 0 0 0 0
+:m cc 0.5
+la t 0 0 0 0 ce:100
+:a fastattack 1
+:l la 3
+ce t 0 0 0 0 pr:100
+:a fastattack 2
+:l la 3
+pr t 0 0 0 0 nd:100
+:a fastattack 3
+:l la 3
+nd t 0 0 0 0 pm:100
+:a fastattack 4
+:l la 3
+pm t 0 0 0 0 sm:100
+:a fastattack 5
+:l la 3
+sm t 0 0 0 0 eu:100
+:a fastattack 6
+:l la 3
+eu t 0 0 0 0 gd:100
+:a fastattack 7
+:l la 3
+gd t 0 0 0 0 tb:100
+:a fastattack 8
+:l la 3
+tb t 0 0 0 0 dy:100
+:a fastattack 9
+:l la 3
+dy t 0 0 0 0 ho:100
+:a fastattack 10
+:l la 3
+ho t 0 0 0 0 er:100
+:a fastattack 11
+:l la 3
+er t 0 0 0 0 tm:100
+:a fastattack 12
+:l la 3
+tm t 0 0 0 0 yb:100
+:a fastattack 13
+:l la 3
+yb t 0 0 0 0
+:a fastattack 14
+:l la 3
+ac t 0 0 0 0 th:300
+:a nuke 1
+th t 0 0 0 0 pa:300
+:a nuke 2
+pa t 0 0 0 0 u:300
+:a nuke 3
+u t 0 0 0 0 np:300
+:a nuke 4
+np t 0 0 0 0 pu:300
+:a nuke 5
+pu t 0 0 0 0 am:300
+:a nuke 6
+am t 0 0 0 0 cm:300
+:a nuke 7
+cm t 0 0 0 0 bk:300
+:a nuke 8
+bk t 0 0 0 0 cf:300
+:a nuke 9
+cf t 0 0 0 0 es:300
+:a nuke 10
+es t 0 0 0 0 fm:300
+:a nuke 11
+fm t 0 0 0 0 md:300
+:a nuke 12
+md t 0 0 0 0 no:300
+:a nuke 13
+no t 0 0 0 0
+:a nuke 14
+he t 0 1 1000 200 ne:1000
+:b dark
+ne t 0 2 1000 200 ar:2000
+:b dark
+ar t 0 4 1000 200 kr:4000
+:b dark
+kr t 0 8 1000 200 xe:8000
+:b dark
+xe t 0 16 1000 200 rn:16000
+:b dark
+rn t 0 32 1000 200 uuo:100000
+:b dark
+uuo t 0 0 0 0
+:w
+base2 t 0 0 0 0 he:400 be:30 f:50
+be t 0 500 6000 125 mg:100
+mg t 0 1100 6000 150 ca:200
+ca t 0 2800 6000 175 sr:400
+sr t 0 7000 6000 175 ba:800
+ba t 0 16000 6000 175 ra:1600
+ra t 0 35000 6000 175
+f t 0 0 0 0 cl:100
+:a gold 2000
+cl t 0 0 0 0 br:200
+:a gold 1000
+br t 0 0 0 0 i:400
+:a gold 500
+i t 0 0 0 0 at:800
+:a gold 250
+at t 0 0 0 0
+:a gold 100

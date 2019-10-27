@@ -1,0 +1,147 @@
+units: various organic creatures...
+
+H: base tower, 7 quarks (7)
+	3 damage every second
+	bonuses:
+	upgrades: HF (acid), Li
+Li: H upgrade, 8 quarks to upgrade (15)
+	6 damage every second
+	bonuses:
+	upgrades: Na
+Na: Li upgrade, 18 quarks to upgrade (33)
+	15 damage every second
+	bonuses:
+	upgrades: K
+K: Na upgrade, 30 quarks to upgrade (63)
+	28 damage every second
+	bonuses:
+	upgrades: Rb
+Rb: K upgrade, 70 quarks to upgrade (133)
+	70 damage every second
+	bonuses:
+	upgrades: Cs
+Cs: Rb upgrade, 100 quarks to upgrade (233)
+	128 damage every second
+	bonuses:
+	upgrades: Fr
+Fr: Cs upgrade, 300 quarks to upgrade (533)
+	300 damage every second
+	bonuses:
+	abilities: reflect (pushes unit back a few pixels)
+	upgrades: none
+HF: H upgrade, 6 quarks to upgrade (27)
+	3 damage every .75 seconds
+	bonuses: double damage to aquatic units
+	upgrades: HCl
+HCl: HF upgrade, 11 quarks to upgrade (38)
+	3 damage every .3 seconds
+	bonuses: double damage to aquatic units
+	upgrades: HBr
+HBr: HCl upgrade, 25 quarks to upgrade (63)
+	6 damage every .3 seconds
+	bonuses: double damage to aquatic units
+	upgrades: HI
+HI: HBr upgrade, 50 quarks to upgrade (113)
+	6 damage every .3 seconds
+	bonuses: double damage to aquatic units
+	abilities: acetic acid (all aquatic units take 6 damage per second)
+	upgrades: HAt
+HAt: HI upgrade, 100 quarks to upgrade (213)
+	6 damage every .3 seconds
+	bonuses: double damage to aquatic units
+	abilities: unstable (all units take 8 damage per second)
+	upgrades: none
+O: base tower, 15 quarks (15)
+	no damage
+	abilities: essential (increases upgrade speed by 20%)
+	upgrades: S, H2O
+H2O: O upgrade, 100 quarks (115)
+	no damage
+	abilities: water source (slows nearby units by 30%)
+	upgrades: H2O (s)
+H2O (s): H2O upgrade, 200 quarsk (315)
+	no damage
+	abilities: freeze (one unit every second is frozen for three seconds)
+	upgrades: none
+S: O upgrade, 20 quarks (35)
+	no damage
+	abilities: essential (increases construction speed by 20%)
+	upgrades: Se
+Se: S upgrade, 75 quarks (110)
+	no damage
+	abilities: sulfide (nearby units with <5% health die)
+	upgrades: Te
+Te: Se upgrade, 100 quarks (210)
+	no damage
+	abilities: metal production (globally decreases cost of transition metals by 10%)
+	upgrades: Po
+Po: Te upgrade, 100 quarks (310)
+	no damage
+	abilities: overheat (nearby units with <10% health die)
+N: base tower, 20 quarks (20)
+	no damage
+	abilities: liquid nitrogen (every two seconds, one unit gets 4 damage per second for four seconds)
+	upgrades: P
+P: N upgrade, 60 quarks (80)
+	no damage
+	abilities: nerve agent (every second, one unit gets 8 damage per second for four seconds)
+	upgrades: As
+As: P upgrade, 100 quarks (180)
+	no damage
+	abilities: poison (every second, one unit gets 18 damage per second for four seconds)
+	upgrades: Sb
+Sb: As upgrade, 150 quarks (330)
+	no damage
+	abilities: toxic (every second, one unit gets 40 damage per second for four seconds)
+	upgrades: Bi
+Bismith: Sb upgrade, 300 quarks (630)
+	no damage
+	abilities: metal (globally decreases cost of transition metals by 30%)
+	upgrades: none
+C: base tower, 150 quarks (150)
+	no damage
+	abilities: building block (decreases upgrade costs by 5%)
+	upgrades: Si
+Si: C upgrade, 200 quarks (350)
+	no damage
+	abilities: building block (decreases upgrade costs by 10%)
+	upgrades: Ge
+Ge: Si upgrade, 250 quarks (600)
+	no damage
+	abilities: semiconductor (decreases upgrade costs by 15%)
+	upgrades: Sn
+Sn: Ge upgrade, 400 quarks (1000)
+	no damage
+	abilities: tin (decreases upgrade costs by 20%)
+	upgrades: Pb
+Pb: Sn upgrade, 1000 quarks (2000)
+	no damage
+	abilities: batteries (decreases upgrade costs by 30%)
+B: base tower, 300 quarks (300)
+	no damage
+	abilities: dopant (decreases construction costs by 5%)
+	upgrades: Al
+Al: B upgrade, 200 quarks (500)
+	no damage
+	abilities: useful (decreases construction costs by 10%)
+	upgrades: Ga
+Ga: Al upgrade, 400 quarks (900)
+	no damage
+	abilities: microelectronics (decreases construction costs by 15%)
+	upgrades: In
+In: Ga upgrade, 1000 quarks (1900)
+	no damage
+	abilities: liquid crystal displays (decreases construction costs by 20%)
+	upgrades: Tl
+Tl: In upgrade, 4000 quarks (5900)
+	no damage
+	abilities: electronics (decreases constructions costs by 50%)
+	upgrades: none
+Lanthanides: La to Lu
+	100 quarks for each upgrade
+	increases attack speed of nearby towers by X*10%
+Actinides: Ac to Lr
+	300 quarks for each upgrade
+	abilities: nuclear weapons: every six seconds, nearby units receive X*800 damage
+U: base tower, 40000 quarks
+	you win the game!
