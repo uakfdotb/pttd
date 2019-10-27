@@ -4,6 +4,12 @@ pttd - periodic table tower defense
 
 pttd is a tower defense game involving the periodic table.
 
+Launch
+------
+
+javac -sourcepath source/ -d pttd/ source/com/perennate/ptgame/PTApplet.java
+appletviewer index.html
+
 Basics
 ------
 
